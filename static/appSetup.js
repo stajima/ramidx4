@@ -1,9 +1,9 @@
 window.appBootstrap = window.appBootstrap || function (scriptUrl) {
-        var s = document.createElement('script');
-        s.src = scriptUrl;
-        document.getElementsByTagName('head')[0].appendChild(s);
-        window.appBootstrap = function () {
-        };
+        var head= document.getElementsByTagName('head')[0];
+        var script= document.createElement('script');
+        script.type= 'text/javascript';
+        script.src= scriptUrl;
+        head.appendChild(script);
     };
 appBootstrap('https://npmcdn.com/zone.js@0.6.12');
 appBootstrap('https://npmcdn.com/reflect-metadata@0.1.3');
