@@ -3,6 +3,7 @@ window.appBootstrap = window.appBootstrap || function (scriptUrl) {
         var head = document.getElementsByTagName('head')[0];
         var script = document.createElement('script');
         script.type = 'text/javascript';
+        script.async = 0;
         script.defer = 0;
         script.src = scriptUrl;
         head.appendChild(script);
