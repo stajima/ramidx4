@@ -15,5 +15,6 @@ appBootstrap('https://pickettd.github.io/server-example-shane/config.js');
 (function () {
     console.log('starting system app import');
     System.import('app').catch(console.error.bind(console));
+    console.log('end of system app import');
 })();
 console.log('end of app setup');
