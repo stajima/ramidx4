@@ -1,3 +1,4 @@
+console.log('start of app setup');
 window.appBootstrap = window.appBootstrap || function (scriptUrl) {
         var head= document.getElementsByTagName('head')[0];
         var script= document.createElement('script');
@@ -12,5 +13,7 @@ appBootstrap('https://npmcdn.com/typescript@1.8.10/lib/typescript.js');
 appBootstrap('https://pickettd.github.io/server-example-shane/config.js');
 
 (function () {
+    console.log('starting system app import');
     System.import('app').catch(console.error.bind(console));
 })();
+console.log('end of app setup');
