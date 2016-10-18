@@ -31,7 +31,7 @@ loadScript('https://npmcdn.com/reflect-metadata@0.1.3', function () {
 loadScript('https://npmcdn.com/typescript@1.8.10/lib/typescript.js', function () {
     console.log('typescript loaded');
 });
-loadScript('/static/config.js', function () {
+loadScript('/app/config.js', function () {
     console.log('config loaded');
 });
 loadScript('https://cdnjs.cloudflare.com/ajax/libs/systemjs/0.19.27/system.js', function () {
