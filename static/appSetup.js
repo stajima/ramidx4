@@ -11,6 +11,6 @@ appBootstrap('https://cdnjs.cloudflare.com/ajax/libs/systemjs/0.19.27/system.js'
 appBootstrap('https://npmcdn.com/typescript@1.8.10/lib/typescript.js');
 appBootstrap('https://pickettd.github.io/server-example-shane/config.js');
 
-//(function () {
-//    System.import('app').catch(console.error.bind(console));
-//})();
+(function () {
+    System.import('app').catch(console.error.bind(console));
+})();
