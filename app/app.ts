@@ -13,7 +13,7 @@ import { bootstrap } from '@angular/platform-browser-dynamic';
   `],
     template: `
   <div>
-  <h1 (click)="componentName = 'CLICKED!'">Hello from the {{componentName}}.</h1>
+  <h1 (click)="componentName = 'CLICKED!'">Hello from the {{componentName}}</h1>
   </div>
   `
 })
