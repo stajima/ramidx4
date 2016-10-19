@@ -10,7 +10,7 @@
 
     //map tells the System loader where to look for things
     var map = {
-        'app': '/app', // 'dist',
+        'app': 'https://pickettd.github.io/server-example-shane/app', // 'dist',
         'rxjs': 'https://npmcdn.com/rxjs@5.0.0-beta.6',
         'angular2-in-memory-web-api': 'https://npmcdn.com/angular2-in-memory-web-api' // get latest
     };
