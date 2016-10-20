@@ -27,7 +27,7 @@ function loadScript(url, callback) {
         console.log('zone loaded');
         loadZone();
     });
-})();
+}());
 
 var loadZone = function () {
     loadScript('https://npmcdn.com/reflect-metadata@0.1.3', function () {
