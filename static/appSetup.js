@@ -55,6 +55,6 @@ var totalScripts = 5;
 var launch = function () {
     if (scriptsLoaded === totalScripts) {
         console.log('Launching app');
-        //System.import('app').catch(console.error.bind(console));
+        System.import('app').catch(console.error.bind(console));
     }
 };
